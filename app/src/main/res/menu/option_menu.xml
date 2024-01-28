@@ -13,3 +13,13 @@
             app:showAsAction="never" />
     </group>
 </menu>
+
+<!--
+    1. Tag <group> dapat digunakan untuk mengelopmpokkan item yang akan ditampilkan pada AppBar.
+    2. Terdapat 5 kondisi yang dapat dipasang pada tag "app:showAsAction":
+        1. ifRoom, akan menampilkan action ketika ada ruangan pada AppBar
+        2. withText, akan menampilkan actionitem beserta judulnya
+        3. never, tidak akan pernah ditampilkan pada AppBar dan hanya akan ditampilkan pada overflow menu
+        4. always, akan selalu tampil pada AppBar
+        5. collapseActionView, berhubungan dengan komponen collapsible
+-->
