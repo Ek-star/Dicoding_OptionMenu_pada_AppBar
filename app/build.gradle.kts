@@ -7,6 +7,10 @@ android {
     namespace = "com.example.myappbar"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.myappbar"
         minSdk = 24
